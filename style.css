@@ -1,0 +1,44 @@
+body{
+    background-image: url(it.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-blend-mode: overlay;
+    background-color: rgba(81, 90, 97, 0.6);
+    color: #ffffff;
+    height: 80vh;
+    width: 100%;
+
+
+}
+#form{
+font-size: 1.5em;
+text-align: center;
+color: white;
+padding: 60px;
+background-color: rgba(83, 81, 83, 0.3);
+}
+#form h1{
+    margin-bottom: 40px;
+    color: rgb(53, 216, 228);
+
+}
+#form button{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    background-color: #7468a0;
+    border: none;
+    outline: none;
+
+}
+#form button :hover{
+    color: rgb(118, 205, 223);
+    background-color: #e6130bf0;
+}
+.centerForm{
+position: absolute;
+top: 50%;
+left: 40%;
+
+transform: translate(-50%,-50%);
+width: 35%;
+}
